@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+	<day title="Понедельник">
+		<lesson>
+			<title>Технологии разработки приложений для мобильных платформ</title>
+			<classroom>427</classroom>
+			<teacher>Юрков</teacher>
+			<timeStart>13:30</timeStart>
+			<timeEnd>15:05</timeEnd>
+			<type>Лекция</type>
+		</lesson>
+		<lesson>
+			<title>Технологии разработки приложений для мобильных платформ</title>
+			<classroom>237</classroom>
+			<teacher>Юрков</teacher>
+			<timeStart>15:15</timeStart>
+			<timeEnd>16:50</timeEnd>
+			<type>Практика</type>
+		</lesson>
+		<lesson>
+			<title>Технологии разработки приложений для мобильных платформ</title>
+			<classroom>237</classroom>
+			<teacher>Юрков</teacher>
+			<timeStart>17:00</timeStart>
+			<timeEnd>18:35</timeEnd>
+			<type>Практика</type>
+		</lesson>
+	</day>
+	<day title="Вторник">
+		<lesson>
+			<title>Методы искусственного интеллекта</title>
+			<classroom>519</classroom>
+			<teacher>Ясницкий</teacher>
+			<timeStart>8:00</timeStart>
+			<timeEnd>9:35</timeEnd>
+			<type>Практика</type>
+		</lesson>
+	</day>
+	<day title="Среда">
+		<lesson>
+			<title>Операционная система UNIX</title>
+			<classroom>239</classroom>
+			<teacher>Замятина</teacher>
+			<timeStart>9:45</timeStart>
+			<timeEnd>11:25</timeEnd>
+			<type>Лекция</type>
+		</lesson>
+		<lesson>
+			<title>Методика преподавания информатики и информационных технологий</title>
+			<classroom>407</classroom>
+			<teacher>Ланин</teacher>
+			<timeStart>11:30</timeStart>
+			<timeEnd>13:05</timeEnd>
+			<type>Лекция</type>
+		</lesson>
+		<lesson>
+			<title>Методика преподавания информатики и информационных технологий</title>
+			<classroom>304</classroom>
+			<teacher>Ланин</teacher>
+			<timeStart>13:30</timeStart>
+			<timeEnd>15:05</timeEnd>
+			<type>Практика</type>
+		</lesson>
+	</day>
+	<day title="Четверг">
+		<lesson>
+			<title>Операционная система UNIX</title>
+			<classroom>239</classroom>
+			<teacher>Анисимов</teacher>
+			<timeStart>8:00</timeStart>
+			<timeEnd>9:35</timeEnd>
+			<type>Практика</type>
+		</lesson>
+	</day>
+	<day title="Пятница">
+		<lesson>
+			<title>Операционная система UNIX</title>
+			<classroom>239</classroom>
+			<teacher>Анисимов</teacher>
+			<timeStart>8:00</timeStart>
+			<timeEnd>9:35</timeEnd>
+			<type>Практика</type>
+		</lesson>
+		<lesson>
+			<title>Прикладная теория графов</title>
+			<classroom>239</classroom>
+			<teacher>Дураков</teacher>
+			<timeStart>11:30</timeStart>
+			<timeEnd>13:05</timeEnd>
+			<type>Практика</type>
+		</lesson>
+	</day>
+	<day title="Суббота">
+	</day>
+	<day title="Воскресенье">
+	</day>
+</schedule>

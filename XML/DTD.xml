@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schedule [
+<!ELEMENT schedule (day+)>
+<!ELEMENT day (lesson+)>
+<!ATTLIST day
+	title CDATA #REQUIRED>
+<!ELEMENT lesson (title, classroom, teacher, timeStart, timeEnd, type)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT classroom (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT timeStart (#PCDATA)>
+<!ELEMENT timeEnd (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+]>

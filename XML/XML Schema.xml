@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="title" type="xs:string"/>
+   <xs:element name="classroom" type="xs:string"/>
+   <xs:element name="teacher" type="xs:string"/>
+   <xs:element name="timeStart" type="xs:string"/>
+   <xs:element name="timeEnd" type="xs:string"/>
+   <xs:element name="type" type="xs:string"/>
+
+   <xs:attribute name="title" type="xs:string"/>
+
+   <xs:element name="lesson">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="title"/>
+            <xs:element ref="classroom"/>
+            <xs:element ref="teacher"/>
+            <xs:element ref="timeStart"/>
+			<xs:element ref="timeEnd"/>
+			<xs:element ref="type"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="day">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="lesson" minOccurs="0" maxOccurs="unbounded"/>
+         </xs:sequence>
+		 <xs:attribute ref="title" use="required"/>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:element name="schedule">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="day" minOccurs="0" maxOccurs="7"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

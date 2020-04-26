@@ -1,0 +1,8 @@
+XPath:
+a) //lesson
+b) //classroom[not(. = ./following::classroom)]
+c) //lesson[type="Практика"]
+d) //lesson[type="Лекция" and classroom="407"]
+e) //lesson[type="Практика" and classroom="239"]/teacher[not(. = ./following::teacher)]
+f) //day/lesson[last()]
+g) count(//lesson)
